@@ -1,0 +1,6 @@
+-- Reset database and create fresh tables
+DROP TABLE IF EXISTS session CASCADE;
+DROP TABLE IF EXISTS withdrawals CASCADE;
+DROP TABLE IF EXISTS deposits CASCADE;
+DROP TABLE IF EXISTS transactions CASCADE;
+DROP TABLE IF EXISTS users CASCADE;
